@@ -1,0 +1,85 @@
+:root {
+    --primaryColor: #18A0FB;
+    --secondaryColor: rgb(213, 205, 205);
+}
+
+h1 {
+    text-align: center;
+    /* border:2px solid red; */
+}
+
+.hr {
+    height: .2px;
+    margin: 20px auto;
+    color: rgb(213, 205, 205);
+    background-color: var(--secondaryColor);
+    width: 80%;
+
+    /* margin: ; */
+}
+
+.add-task {
+    border: .1px solid var(--secondaryColor);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+.add-button {
+    height: 40px;
+    width: 130px;
+    background-color: var(--primaryColor);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+}
+
+.go-back {
+    height: 40px;
+    width: 130px;
+    /* background-color: var(--primaryColor); */
+    background-color: white;
+    border: 1px solid var(--primaryColor);
+    border-radius: 8px;
+    /* margin:0px auto;
+    width: 100%; */
+    color: var(--primaryColor);
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mt-1 {
+    margin-top: 2px;
+}
+
+input {
+    width: 200px;
+    border-radius: 7px;
+    height: 25px;
+    border: 1px solid var(--secondaryColor);
+    outline: none;
+    padding: 0px 8px;
+}
+.message
+{
+    color: red;
+}
